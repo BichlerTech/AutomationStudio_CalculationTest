@@ -48,17 +48,17 @@ references2add.clear();
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19982, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20011, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20010, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20009, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20010, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,20008) , NodeClass.valueOf(2) ,new QualifiedName(0,"StateDisabledByMethod") , new LocalizedText("StateDisabledByMethod","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(0),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15381, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",896, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",895, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",896, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15381, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,894) , NodeClass.valueOf(64) ,new QualifiedName(0,"ProgramDiagnosticDataType") , new LocalizedText("ProgramDiagnosticDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -85,15 +85,15 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17991, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17282, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17286, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17284, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17281, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18666, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17280, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17283, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17281, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17991, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18666, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17284, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17288, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17283, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17286, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,17279) , NodeClass.valueOf(8) ,new QualifiedName(0,"AlarmMetricsType") , new LocalizedText("AlarmMetricsType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -133,18 +133,18 @@ nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,20011) , NodeCl
 references2add.clear();
 }
 {
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",899, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",898, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15374, nsTable)));
-nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,897) , NodeClass.valueOf(64) ,new QualifiedName(0,"SemanticChangeStructureDataType") , new LocalizedText("SemanticChangeStructureDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
-references2add.clear();
-}
-{
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17279, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",63, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,17281) , NodeClass.valueOf(2) ,new QualifiedName(0,"MaximumActiveState") , new LocalizedText("MaximumActiveState","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(6),NodeIdUtil.createNodeId(0,290) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
+references2add.clear();
+}
+{
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",898, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",899, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15374, nsTable)));
+nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,897) , NodeClass.valueOf(64) ,new QualifiedName(0,"SemanticChangeStructureDataType") , new LocalizedText("SemanticChangeStructureDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
 {
@@ -164,10 +164,10 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19968, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20025, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20023, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20021, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20019, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20023, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20025, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,20013) , NodeClass.valueOf(1) ,new QualifiedName(0,"LiveValues") , new LocalizedText("LiveValues","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
@@ -189,9 +189,9 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19982, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20016, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20015, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20017, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20015, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20016, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,20014) , NodeClass.valueOf(2) ,new QualifiedName(0,"FailedDataSetMessages") , new LocalizedText("FailedDataSetMessages","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(9),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
@@ -221,9 +221,9 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2881, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",8995, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9094, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9098, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9100, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9098, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9094, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9101, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,9004) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9073, nsTable)));
@@ -402,9 +402,9 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2881, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",8995, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9103, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9107, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9110, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9103, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9109, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",80, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,9004) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9073, nsTable)));
@@ -442,8 +442,8 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19677, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20041, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20072, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20041, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,20027) , NodeClass.valueOf(8) ,new QualifiedName(0,"PubSubDiagnosticsDataSetReaderType") , new LocalizedText("PubSubDiagnosticsDataSetReaderType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -484,10 +484,10 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14509, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15052, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14586, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14587, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14588, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14586, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15052, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,14572) , NodeClass.valueOf(8) ,new QualifiedName(0,"PublishedEventsType") , new LocalizedText("PublishedEventsType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -505,9 +505,9 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",921, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15349, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",922, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",921, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,920) , NodeClass.valueOf(64) ,new QualifiedName(0,"HistoryEventFieldList") , new LocalizedText("HistoryEventFieldList","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -566,15 +566,15 @@ references2add.clear();
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14209, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17725, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17318, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17311, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17486, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17214, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17558, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17319, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17204, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17314, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17558, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17321, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17204, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17322, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17311, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11508, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,17310) , NodeClass.valueOf(1) ,new QualifiedName(0,"<WriterGroupName>") , new LocalizedText("<WriterGroupName>","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
@@ -593,14 +593,14 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20027, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20062, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20078, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20047, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20052, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20062, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20073, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20042, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20067, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20057, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20042, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20073, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20047, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,20041) , NodeClass.valueOf(1) ,new QualifiedName(0,"Counters") , new LocalizedText("Counters","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
@@ -622,18 +622,11 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20041, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20043, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20044, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20045, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20043, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,20042) , NodeClass.valueOf(2) ,new QualifiedName(0,"StateError") , new LocalizedText("StateError","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(44),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
-references2add.clear();
-}
-{
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20042, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",68, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
-nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,20043) , NodeClass.valueOf(2) ,new QualifiedName(0,"Active") , new LocalizedText("Active","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(45),NodeIdUtil.createNodeId(0,1) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
 }
 {
@@ -647,14 +640,21 @@ references2add.clear();
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20042, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",68, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
-nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,20044) , NodeClass.valueOf(2) ,new QualifiedName(0,"Classification") , new LocalizedText("Classification","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(46),NodeIdUtil.createNodeId(0,19730) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
+nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,20043) , NodeClass.valueOf(2) ,new QualifiedName(0,"Active") , new LocalizedText("Active","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(45),NodeIdUtil.createNodeId(0,1) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",8927, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",68, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
-nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,11852) , NodeClass.valueOf(2) ,new QualifiedName(0,"SelectedResponse") , new LocalizedText("SelectedResponse","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(47),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
+nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,11852) , NodeClass.valueOf(2) ,new QualifiedName(0,"SelectedResponse") , new LocalizedText("SelectedResponse","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(46),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
+references2add.clear();
+}
+{
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20042, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",68, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
+nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,20044) , NodeClass.valueOf(2) ,new QualifiedName(0,"Classification") , new LocalizedText("Classification","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(47),NodeIdUtil.createNodeId(0,19730) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
 }
 {
@@ -666,17 +666,17 @@ nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,17314) , NodeClas
 references2add.clear();
 }
 {
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20042, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",68, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
-nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,20045) , NodeClass.valueOf(2) ,new QualifiedName(0,"DiagnosticsLevel") , new LocalizedText("DiagnosticsLevel","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(48),NodeIdUtil.createNodeId(0,19723) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
-references2add.clear();
-}
-{
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",8944, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",68, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,11853) , NodeClass.valueOf(2) ,new QualifiedName(0,"Comment") , new LocalizedText("Comment","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,21) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
+references2add.clear();
+}
+{
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20042, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",68, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
+nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,20045) , NodeClass.valueOf(2) ,new QualifiedName(0,"DiagnosticsLevel") , new LocalizedText("DiagnosticsLevel","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(48),NodeIdUtil.createNodeId(0,19723) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
 }
 {
@@ -694,20 +694,20 @@ nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,11854) , NodeCl
 references2add.clear();
 }
 {
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20041, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20048, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20050, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20049, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
-nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,20047) , NodeClass.valueOf(2) ,new QualifiedName(0,"StateOperationalByMethod") , new LocalizedText("StateOperationalByMethod","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(49),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
-references2add.clear();
-}
-{
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11093, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",68, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",80, nsTable)));
-nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,11855) , NodeClass.valueOf(2) ,new QualifiedName(0,"ShelvingTime") , new LocalizedText("ShelvingTime","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(50),NodeIdUtil.createNodeId(0,290) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
+nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,11855) , NodeClass.valueOf(2) ,new QualifiedName(0,"ShelvingTime") , new LocalizedText("ShelvingTime","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(49),NodeIdUtil.createNodeId(0,290) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
+references2add.clear();
+}
+{
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20041, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20050, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20049, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20048, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
+nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,20047) , NodeClass.valueOf(2) ,new QualifiedName(0,"StateOperationalByMethod") , new LocalizedText("StateOperationalByMethod","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(50),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
 }
 {
@@ -718,16 +718,16 @@ nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,14586) , NodeCl
 references2add.clear();
 }
 {
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2315, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11875, nsTable)));
+nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,11856) , NodeClass.valueOf(8) ,new QualifiedName(0,"AuditProgramTransitionEventType") , new LocalizedText("AuditProgramTransitionEventType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
+references2add.clear();
+}
+{
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20047, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",68, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,20048) , NodeClass.valueOf(2) ,new QualifiedName(0,"Active") , new LocalizedText("Active","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(52),NodeIdUtil.createNodeId(0,1) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
-references2add.clear();
-}
-{
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2315, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11875, nsTable)));
-nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,11856) , NodeClass.valueOf(8) ,new QualifiedName(0,"AuditProgramTransitionEventType") , new LocalizedText("AuditProgramTransitionEventType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
 }
 {
@@ -782,9 +782,9 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20041, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20053, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20055, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20054, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20055, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20053, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,20052) , NodeClass.valueOf(2) ,new QualifiedName(0,"StateOperationalByParent") , new LocalizedText("StateOperationalByParent","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(58),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
@@ -792,8 +792,8 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",316, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",939, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15144, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",940, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15144, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,938) , NodeClass.valueOf(64) ,new QualifiedName(0,"IssuedIdentityToken") , new LocalizedText("IssuedIdentityToken","") , new LocalizedText("A token representing a user identified by a WS-Security XML token.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -827,9 +827,9 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14847, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15049, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14803, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14847, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,14593) , NodeClass.valueOf(64) ,new QualifiedName(0,"ConfigurationVersionDataType") , new LocalizedText("ConfigurationVersionDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -850,10 +850,10 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14209, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17999, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17326, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17302, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17329, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17487, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17302, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17326, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11508, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,17325) , NodeClass.valueOf(1) ,new QualifiedName(0,"<ReaderGroupName>") , new LocalizedText("<ReaderGroupName>","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
@@ -876,8 +876,8 @@ references2add.clear();
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20041, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20058, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20060, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20059, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20060, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,20057) , NodeClass.valueOf(2) ,new QualifiedName(0,"StateOperationalFromError") , new LocalizedText("StateOperationalFromError","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(62),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
@@ -993,9 +993,9 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20041, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20070, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20069, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20068, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20069, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20070, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,20067) , NodeClass.valueOf(2) ,new QualifiedName(0,"StateDisabledByMethod") , new LocalizedText("StateDisabledByMethod","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(70),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
@@ -1045,12 +1045,12 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20027, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20089, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20087, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20085, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20091, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20093, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20087, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20083, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20089, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,20072) , NodeClass.valueOf(1) ,new QualifiedName(0,"LiveValues") , new LocalizedText("LiveValues","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
@@ -1111,8 +1111,8 @@ references2add.clear();
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20041, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20081, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20080, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20079, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20080, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",80, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,20078) , NodeClass.valueOf(2) ,new QualifiedName(0,"DecryptionErrors") , new LocalizedText("DecryptionErrors","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(83),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
@@ -1148,22 +1148,15 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2915, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",8995, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9167, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9161, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9164, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9168, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9166, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9165, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9166, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9168, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9164, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9161, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9167, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,9004) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9118, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,9160) , NodeClass.valueOf(2) ,new QualifiedName(0,"ActiveState") , new LocalizedText("ActiveState","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,21) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
-references2add.clear();
-}
-{
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2030, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",63, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
-nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,11891) , NodeClass.valueOf(2) ,new QualifiedName(0,"UnauthorizedRequestCount") , new LocalizedText("UnauthorizedRequestCount","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(87),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
 }
 {
@@ -1171,6 +1164,13 @@ references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new Ex
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",63, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,3699) , NodeClass.valueOf(2) ,new QualifiedName(0,"ManufacturerName") , new LocalizedText("ManufacturerName","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,12) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),1000.0,false));
+references2add.clear();
+}
+{
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2030, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",63, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
+nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,11891) , NodeClass.valueOf(2) ,new QualifiedName(0,"UnauthorizedRequestCount") , new LocalizedText("UnauthorizedRequestCount","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(87),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
 }
 {
@@ -1210,18 +1210,18 @@ nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,20084) , NodeCl
 references2add.clear();
 }
 {
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2142, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",63, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
+nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,3701) , NodeClass.valueOf(2) ,new QualifiedName(0,"SoftwareVersion") , new LocalizedText("SoftwareVersion","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,12) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),1000.0,false));
+references2add.clear();
+}
+{
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20072, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",63, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20086, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",80, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,20085) , NodeClass.valueOf(2) ,new QualifiedName(0,"StatusCode") , new LocalizedText("StatusCode","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,19) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
-references2add.clear();
-}
-{
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2142, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",63, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
-nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,3701) , NodeClass.valueOf(2) ,new QualifiedName(0,"SoftwareVersion") , new LocalizedText("SoftwareVersion","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,12) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),1000.0,false));
 references2add.clear();
 }
 {
@@ -1246,18 +1246,18 @@ nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,9164) , NodeCla
 references2add.clear();
 }
 {
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2142, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",63, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
+nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,3703) , NodeClass.valueOf(2) ,new QualifiedName(0,"BuildDate") , new LocalizedText("BuildDate","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(93),NodeIdUtil.createNodeId(0,294) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),1000.0,false));
+references2add.clear();
+}
+{
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20072, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",63, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",20088, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",80, nsTable)));
-nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,20087) , NodeClass.valueOf(2) ,new QualifiedName(0,"MajorVersion") , new LocalizedText("MajorVersion","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(93),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
-references2add.clear();
-}
-{
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2142, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",63, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
-nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,3703) , NodeClass.valueOf(2) ,new QualifiedName(0,"BuildDate") , new LocalizedText("BuildDate","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(94),NodeIdUtil.createNodeId(0,294) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),1000.0,false));
+nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,20087) , NodeClass.valueOf(2) ,new QualifiedName(0,"MajorVersion") , new LocalizedText("MajorVersion","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(94),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
 }
 {
@@ -1347,10 +1347,10 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2915, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",8995, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9174, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9176, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9170, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9177, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9170, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9176, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9174, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",80, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,9004) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9118, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,9169) , NodeClass.valueOf(2) ,new QualifiedName(0,"SuppressedState") , new LocalizedText("SuppressedState","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,21) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
@@ -1456,12 +1456,12 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2915, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2929, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9211, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9179, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9189, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9213, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9212, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9211, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9189, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9179, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9184, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9212, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",80, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,9004) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9118, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,9178) , NodeClass.valueOf(1) ,new QualifiedName(0,"ShelvingState") , new LocalizedText("ShelvingState","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
@@ -1497,9 +1497,9 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14645, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14646, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14644, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14646, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14645, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,14643) , NodeClass.valueOf(8) ,new QualifiedName(0,"PubSubStatusType") , new LocalizedText("PubSubStatusType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -1519,8 +1519,8 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9178, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2767, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9188, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9185, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9188, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",80, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,9184) , NodeClass.valueOf(2) ,new QualifiedName(0,"LastTransition") , new LocalizedText("LastTransition","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,21) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
@@ -1674,8 +1674,8 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11949, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11957, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15363, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11957, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,11943) , NodeClass.valueOf(64) ,new QualifiedName(0,"EndpointUrlListDataType") , new LocalizedText("EndpointUrlListDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -1696,9 +1696,9 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11950, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15364, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11958, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11950, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,11944) , NodeClass.valueOf(64) ,new QualifiedName(0,"NetworkGroupDataType") , new LocalizedText("NetworkGroupDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -1745,11 +1745,11 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14443, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19732, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17421, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17422, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17410, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17423, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17410, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17421, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17457, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17422, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17416, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17411, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,17409) , NodeClass.valueOf(1) ,new QualifiedName(0,"Diagnostics") , new LocalizedText("Diagnostics","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
@@ -1778,9 +1778,9 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17409, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17412, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17413, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17414, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17413, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17412, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,17411) , NodeClass.valueOf(2) ,new QualifiedName(0,"TotalInformation") , new LocalizedText("TotalInformation","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(129),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
 }
@@ -1827,8 +1827,8 @@ references2add.clear();
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17409, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17417, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17418, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17419, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17418, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,17416) , NodeClass.valueOf(2) ,new QualifiedName(0,"TotalError") , new LocalizedText("TotalError","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(133),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
 }
@@ -1890,11 +1890,11 @@ List<Node> nodes2add = new ArrayList<>();
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17409, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17441, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17451, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17446, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17436, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17424, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17431, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17424, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17446, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17451, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17436, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,17423) , NodeClass.valueOf(1) ,new QualifiedName(0,"Counters") , new LocalizedText("Counters","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
 }
@@ -1908,9 +1908,9 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17423, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17429, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17426, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17425, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17429, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,17424) , NodeClass.valueOf(2) ,new QualifiedName(0,"StateError") , new LocalizedText("StateError","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(138),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
 }
@@ -1928,8 +1928,8 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14209, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17428, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17456, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17428, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",80, nsTable)));
 nodes2add.add(new UAMethodNode(NodeIdUtil.createNodeId(0,17427) , NodeClass.valueOf(4) ,new QualifiedName(0,"AddWriterGroup") , new LocalizedText("AddWriterGroup","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false,false));
 references2add.clear();
@@ -2031,9 +2031,9 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17423, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17448, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17447, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17449, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17448, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,17446) , NodeClass.valueOf(2) ,new QualifiedName(0,"StatePausedByParent") , new LocalizedText("StatePausedByParent","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(155),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
 }
@@ -2058,9 +2058,9 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17423, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17454, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17452, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17453, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17452, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17454, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,17451) , NodeClass.valueOf(2) ,new QualifiedName(0,"StateDisabledByMethod") , new LocalizedText("StateDisabledByMethod","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(159),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
 }
@@ -2092,10 +2092,10 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17409, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17460, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17458, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17462, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17460, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17464, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17462, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,17457) , NodeClass.valueOf(1) ,new QualifiedName(0,"LiveValues") , new LocalizedText("LiveValues","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
 }
@@ -2168,8 +2168,8 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15618, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17476, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17472, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17468, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17472, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,17467) , NodeClass.valueOf(64) ,new QualifiedName(0,"DatagramConnectionTransportDataType") , new LocalizedText("DatagramConnectionTransportDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -2203,9 +2203,9 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15061, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14804, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14848, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15061, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,14744) , NodeClass.valueOf(64) ,new QualifiedName(0,"FieldTargetDataType") , new LocalizedText("FieldTargetDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -2267,15 +2267,15 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2365, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12038, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12026, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12057, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12024, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12028, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12068, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12029, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12024, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12047, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12027, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12028, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12025, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12068, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12026, nsTable)));
 nodes2add.add(new UAVariableTypeNode(NodeIdUtil.createNodeId(0,12021) , NodeClass.valueOf(16) ,new QualifiedName(0,"ArrayItemType") , new LocalizedText("ArrayItemType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,24) ,0,new UnsignedInteger[0],true));
 references2add.clear();
 }
@@ -2317,17 +2317,17 @@ nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,17486) , NodeCl
 references2add.clear();
 }
 {
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12021, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",68, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
-nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,12025) , NodeClass.valueOf(2) ,new QualifiedName(0,"EURange") , new LocalizedText("EURange","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,884) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
-references2add.clear();
-}
-{
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3830, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",68, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,3833) , NodeClass.valueOf(2) ,new QualifiedName(0,"Number") , new LocalizedText("Number","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(177),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
+references2add.clear();
+}
+{
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12021, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",68, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
+nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,12025) , NodeClass.valueOf(2) ,new QualifiedName(0,"EURange") , new LocalizedText("EURange","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,884) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
 }
 {
@@ -2358,9 +2358,9 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2391, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2767, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3836, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3839, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3838, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3839, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3836, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,3835) , NodeClass.valueOf(2) ,new QualifiedName(0,"LastTransition") , new LocalizedText("LastTransition","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,21) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
@@ -2574,29 +2574,29 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12021, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12055, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12056, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12055, nsTable)));
 nodes2add.add(new UAVariableTypeNode(NodeIdUtil.createNodeId(0,12047) , NodeClass.valueOf(16) ,new QualifiedName(0,"ImageItemType") , new LocalizedText("ImageItemType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,24) ,2,new UnsignedInteger[]{new UnsignedInteger(0)},false));
 references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2771, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9333, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9331, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9339, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9340, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9337, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9329, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9335, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9338, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9339, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9329, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9337, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9340, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9335, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9331, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,9318) , NodeClass.valueOf(8) ,new QualifiedName(0,"ExclusiveLimitStateMachineType") , new LocalizedText("ExclusiveLimitStateMachineType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17496, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18001, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17513, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17512, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17513, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11508, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,17511) , NodeClass.valueOf(1) ,new QualifiedName(0,"<ServiceName>") , new LocalizedText("<ServiceName>","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
@@ -2654,18 +2654,18 @@ nodes2add.add(new UAMethodNode(NodeIdUtil.createNodeId(0,17522) , NodeClass.valu
 references2add.clear();
 }
 {
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17522, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",68, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
+nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,17523) , NodeClass.valueOf(2) ,new QualifiedName(0,"InputArguments") , new LocalizedText("InputArguments","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(188),NodeIdUtil.createNodeId(0,296) ,1,new UnsignedInteger[]{new UnsignedInteger(0)},new UnsignedByte(1),new UnsignedByte(1),0.0,false));
+references2add.clear();
+}
+{
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9318, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2307, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,52) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9339, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,51) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9340, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,9331) , NodeClass.valueOf(1) ,new QualifiedName(0,"High") , new LocalizedText("High","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
-references2add.clear();
-}
-{
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17522, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",68, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
-nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,17523) , NodeClass.valueOf(2) ,new QualifiedName(0,"InputArguments") , new LocalizedText("InputArguments","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(188),NodeIdUtil.createNodeId(0,296) ,1,new UnsignedInteger[]{new UnsignedInteger(0)},new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
 }
 {
@@ -2720,17 +2720,17 @@ nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,9335) , NodeClass
 references2add.clear();
 }
 {
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2782, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",68, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
-nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,3874) , NodeClass.valueOf(2) ,new QualifiedName(0,"Retain") , new LocalizedText("Retain","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(190),NodeIdUtil.createNodeId(0,1) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
-references2add.clear();
-}
-{
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12057, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",68, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,12066) , NodeClass.valueOf(2) ,new QualifiedName(0,"YAxisDefinition") , new LocalizedText("YAxisDefinition","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,12079) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
+references2add.clear();
+}
+{
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2782, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",68, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
+nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,3874) , NodeClass.valueOf(2) ,new QualifiedName(0,"Retain") , new LocalizedText("Retain","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(190),NodeIdUtil.createNodeId(0,1) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
 }
 {
@@ -2772,16 +2772,16 @@ nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,9337) , NodeClass
 references2add.clear();
 }
 {
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12021, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12076, nsTable)));
-nodes2add.add(new UAVariableTypeNode(NodeIdUtil.createNodeId(0,12068) , NodeClass.valueOf(16) ,new QualifiedName(0,"NDimensionArrayItemType") , new LocalizedText("NDimensionArrayItemType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,24) ,0,new UnsignedInteger[0],false));
-references2add.clear();
-}
-{
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3875, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",68, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,3876) , NodeClass.valueOf(2) ,new QualifiedName(0,"InputArguments") , new LocalizedText("InputArguments","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(191),NodeIdUtil.createNodeId(0,296) ,1,new UnsignedInteger[]{new UnsignedInteger(0)},new UnsignedByte(1),new UnsignedByte(1),0.0,false));
+references2add.clear();
+}
+{
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12021, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12076, nsTable)));
+nodes2add.add(new UAVariableTypeNode(NodeIdUtil.createNodeId(0,12068) , NodeClass.valueOf(16) ,new QualifiedName(0,"NDimensionArrayItemType") , new LocalizedText("NDimensionArrayItemType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,24) ,0,new UnsignedInteger[0],false));
 references2add.clear();
 }
 {
@@ -2845,11 +2845,11 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2955, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9623, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9455, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9398, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9482, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9764, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9623, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9482, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9398, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,9341) , NodeClass.valueOf(8) ,new QualifiedName(0,"ExclusiveLimitAlarmType") , new LocalizedText("ExclusiveLimitAlarmType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -2939,9 +2939,9 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12081, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12089, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15379, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12081, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,12079) , NodeClass.valueOf(64) ,new QualifiedName(0,"AxisInformation") , new LocalizedText("AxisInformation","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -2955,8 +2955,8 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12090, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15380, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12082, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15380, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,12080) , NodeClass.valueOf(64) ,new QualifiedName(0,"XVType") , new LocalizedText("XVType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -3011,8 +3011,8 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17549, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17557, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17553, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17557, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,17548) , NodeClass.valueOf(64) ,new QualifiedName(0,"EphemeralKeyType") , new LocalizedText("EphemeralKeyType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -3096,8 +3096,8 @@ references2add.clear();
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2026, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2029, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12098, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12152, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12142, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12152, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11508, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,12097) , NodeClass.valueOf(1) ,new QualifiedName(0,"<ClientName>") , new LocalizedText("<ClientName>","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
@@ -3112,49 +3112,49 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12097, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2197, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12132, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12119, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12133, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12134, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12115, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12100, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12131, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12120, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12114, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12109, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12115, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12102, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12121, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12141, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12106, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12107, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12110, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12122, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12112, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12124, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12133, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12137, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12117, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12136, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12128, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12109, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12121, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12122, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12102, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12127, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12139, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12107, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12112, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12114, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12113, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12099, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12118, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12106, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12138, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12130, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12101, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12100, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12126, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12129, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12108, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12135, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12141, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12116, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12119, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12125, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12120, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12137, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12126, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12111, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12101, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12139, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12129, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12113, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12104, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12110, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12103, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12124, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12118, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12128, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12135, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12123, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12105, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12111, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12140, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12134, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12108, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12127, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12103, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12132, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12138, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12099, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12130, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,12098) , NodeClass.valueOf(2) ,new QualifiedName(0,"SessionDiagnostics") , new LocalizedText("SessionDiagnostics","") , new LocalizedText("Diagnostics information for an active session.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,865) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
@@ -3662,15 +3662,15 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12097, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2244, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12147, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12149, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12146, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12151, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12143, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12149, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12144, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12148, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12145, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12151, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12150, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12147, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12145, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12148, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,12142) , NodeClass.valueOf(2) ,new QualifiedName(0,"SessionSecurityDiagnostics") , new LocalizedText("SessionSecurityDiagnostics","") , new LocalizedText("Security related diagnostics information for an active session.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,868) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
@@ -3872,9 +3872,9 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12182, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15378, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12174, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12182, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,12172) , NodeClass.valueOf(64) ,new QualifiedName(0,"DoubleComplexNumberType") , new LocalizedText("DoubleComplexNumberType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -4089,8 +4089,8 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15064, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15155, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15064, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,17721) , NodeClass.valueOf(8) ,new QualifiedName(0,"ConnectionTransportType") , new LocalizedText("ConnectionTransportType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
 }
@@ -4103,18 +4103,18 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14232, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17741, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17992, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17737, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17969, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,15296) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17743, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17969, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17742, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17737, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17736, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17559, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17812, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17741, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17739, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17740, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17812, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17738, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17742, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17992, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,17725) , NodeClass.valueOf(8) ,new QualifiedName(0,"WriterGroupType") , new LocalizedText("WriterGroupType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -4145,9 +4145,9 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14525, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15421, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15529, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15700, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15421, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15005) , NodeClass.valueOf(64) ,new QualifiedName(0,"SimpleTypeDescription") , new LocalizedText("SimpleTypeDescription","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -4175,9 +4175,9 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15618, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15726, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15479, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15579, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15726, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15007) , NodeClass.valueOf(64) ,new QualifiedName(0,"BrokerConnectionTransportDataType") , new LocalizedText("BrokerConnectionTransportDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -4257,10 +4257,10 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,15296) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17725, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15298, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17745, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17744, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17490, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17745, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17749, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17490, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11508, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,17743) , NodeClass.valueOf(1) ,new QualifiedName(0,"<DataSetWriterName>") , new LocalizedText("<DataSetWriterName>","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
@@ -4439,8 +4439,8 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14572, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15053, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15517, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15053, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",80, nsTable)));
 nodes2add.add(new UAMethodNode(NodeIdUtil.createNodeId(0,15052) , NodeClass.valueOf(4) ,new QualifiedName(0,"ModifyFieldSelection") , new LocalizedText("ModifyFieldSelection","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false,false));
 references2add.clear();
@@ -4542,13 +4542,13 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17725, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19834, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17813, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17824, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17825, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17826, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17858, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17814, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17819, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17858, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17826, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17813, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17814, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17825, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17824, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",80, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,17812) , NodeClass.valueOf(1) ,new QualifiedName(0,"Diagnostics") , new LocalizedText("Diagnostics","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
@@ -4575,9 +4575,9 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17812, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17815, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17817, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17816, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17817, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17815, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,17814) , NodeClass.valueOf(2) ,new QualifiedName(0,"TotalInformation") , new LocalizedText("TotalInformation","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(271),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
@@ -4589,16 +4589,16 @@ nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,15084) , NodeClas
 references2add.clear();
 }
 {
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9341, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16899, nsTable)));
+nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,9623) , NodeClass.valueOf(8) ,new QualifiedName(0,"ExclusiveRateOfChangeAlarmType") , new LocalizedText("ExclusiveRateOfChangeAlarmType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
+references2add.clear();
+}
+{
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17814, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",68, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,17815) , NodeClass.valueOf(2) ,new QualifiedName(0,"Active") , new LocalizedText("Active","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(272),NodeIdUtil.createNodeId(0,1) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
-references2add.clear();
-}
-{
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9341, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16899, nsTable)));
-nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,9623) , NodeClass.valueOf(8) ,new QualifiedName(0,"ExclusiveRateOfChangeAlarmType") , new LocalizedText("ExclusiveRateOfChangeAlarmType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
 {
@@ -4636,9 +4636,9 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17812, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17820, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17822, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17821, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17820, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,17819) , NodeClass.valueOf(2) ,new QualifiedName(0,"TotalError") , new LocalizedText("TotalError","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(273),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
@@ -4690,15 +4690,15 @@ List<Node> nodes2add = new ArrayList<>();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17812, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17842, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17853, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17900, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17827, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17832, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17859, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17837, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17859, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17847, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17874, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17827, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17842, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,17826) , NodeClass.valueOf(1) ,new QualifiedName(0,"Counters") , new LocalizedText("Counters","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
@@ -4706,9 +4706,9 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17826, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17830, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17829, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17828, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17830, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,17827) , NodeClass.valueOf(2) ,new QualifiedName(0,"StateError") , new LocalizedText("StateError","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(276),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
@@ -4749,9 +4749,9 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17826, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17834, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17835, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17833, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17835, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17834, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,17832) , NodeClass.valueOf(2) ,new QualifiedName(0,"StateOperationalByMethod") , new LocalizedText("StateOperationalByMethod","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(280),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
@@ -4798,8 +4798,8 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17826, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17838, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17839, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17838, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17840, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,17837) , NodeClass.valueOf(2) ,new QualifiedName(0,"StateOperationalByParent") , new LocalizedText("StateOperationalByParent","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(284),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
@@ -4814,8 +4814,8 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15111, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15127, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15111, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,15108) , NodeClass.valueOf(8) ,new QualifiedName(0,"SubscribedDataSetType") , new LocalizedText("SubscribedDataSetType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -4840,8 +4840,8 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15108, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15114, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15118, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15114, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15115, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,15111) , NodeClass.valueOf(8) ,new QualifiedName(0,"TargetVariablesType") , new LocalizedText("TargetVariablesType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
@@ -4914,8 +4914,8 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17826, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17850, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17849, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17850, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17848, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,17847) , NodeClass.valueOf(2) ,new QualifiedName(0,"StatePausedByParent") , new LocalizedText("StatePausedByParent","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(293),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
@@ -4973,8 +4973,8 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17860, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18073, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17860, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18072, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,17852) , NodeClass.valueOf(8) ,new QualifiedName(0,"AuthorizationServiceConfigurationType") , new LocalizedText("AuthorizationServiceConfigurationType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
@@ -4982,8 +4982,8 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17826, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17856, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17855, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17856, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17854, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,17853) , NodeClass.valueOf(2) ,new QualifiedName(0,"StateDisabledByMethod") , new LocalizedText("StateDisabledByMethod","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(300),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
@@ -5033,9 +5033,9 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17826, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17864, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17871, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17872, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17864, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,17859) , NodeClass.valueOf(2) ,new QualifiedName(0,"SentNetworkMessages") , new LocalizedText("SentNetworkMessages","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(304),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
@@ -5348,8 +5348,8 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14443, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15216, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15217, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15216, nsTable)));
 nodes2add.add(new UAMethodNode(NodeIdUtil.createNodeId(0,15215) , NodeClass.valueOf(4) ,new QualifiedName(0,"GetSecurityKeys") , new LocalizedText("GetSecurityKeys","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false,false));
 references2add.clear();
 }
@@ -5375,10 +5375,10 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,14936) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14509, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15298, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16720, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15223, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16721, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16720, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17482, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16721, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11508, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,15222) , NodeClass.valueOf(1) ,new QualifiedName(0,"<DataSetWriterName>") , new LocalizedText("<DataSetWriterName>","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
@@ -5483,11 +5483,11 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11575, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12550, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12548, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12542, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12546, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12543, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12550, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12548, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,12522) , NodeClass.valueOf(8) ,new QualifiedName(0,"TrustListType") , new LocalizedText("TrustListType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -5503,9 +5503,9 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",63, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17989, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17990, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17988, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17989, nsTable)));
 nodes2add.add(new UAVariableTypeNode(NodeIdUtil.createNodeId(0,17986) , NodeClass.valueOf(16) ,new QualifiedName(0,"AudioVariableType") , new LocalizedText("AudioVariableType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,16307) ,-1,null,false));
 references2add.clear();
 }
@@ -5582,31 +5582,31 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21126, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21105, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21126, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,17998) , NodeClass.valueOf(8) ,new QualifiedName(0,"WriterGroupMessageType") , new LocalizedText("WriterGroupMessageType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14232, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21082, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21080, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,15297) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18076, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21085, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21081, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21015, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21082, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,15297) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18076, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21080, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21085, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,17999) , NodeClass.valueOf(8) ,new QualifiedName(0,"ReaderGroupType") , new LocalizedText("ReaderGroupType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18005, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18004, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18008, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17534, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18069, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18165, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18006, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17534, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18005, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18069, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,18001) , NodeClass.valueOf(8) ,new QualifiedName(0,"KeyCredentialConfigurationType") , new LocalizedText("KeyCredentialConfigurationType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -5749,31 +5749,31 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15044, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12680, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15044, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12676, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,12554) , NodeClass.valueOf(64) ,new QualifiedName(0,"TrustListDataType") , new LocalizedText("TrustListDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",13599, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",13631, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",13599, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,12555) , NodeClass.valueOf(8) ,new QualifiedName(0,"CertificateGroupType") , new LocalizedText("CertificateGroupType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12558, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15181, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12557, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15181, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,12556) , NodeClass.valueOf(8) ,new QualifiedName(0,"CertificateType") , new LocalizedText("CertificateType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12556, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12559, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12560, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12559, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,12557) , NodeClass.valueOf(8) ,new QualifiedName(0,"ApplicationCertificateType") , new LocalizedText("ApplicationCertificateType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
 }
@@ -5828,14 +5828,14 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21092, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15299, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19550, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17493, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21095, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21093, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15303, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21094, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17493, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15299, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15303, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19550, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21092, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,15298) , NodeClass.valueOf(8) ,new QualifiedName(0,"DataSetWriterType") , new LocalizedText("DataSetWriterType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -5880,25 +5880,25 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21100, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21098, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17494, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15311, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19609, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15932, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21102, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17564, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15934, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21102, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21098, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21097, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17389, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21101, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21103, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17563, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15307, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17386, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21100, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15316, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17389, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21099, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15933, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15934, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15311, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17494, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15932, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21101, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17386, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15307, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21103, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19609, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,15306) , NodeClass.valueOf(8) ,new QualifiedName(0,"DataSetReaderType") , new LocalizedText("DataSetReaderType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -5926,15 +5926,15 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12584, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12731, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12585, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12734, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12775, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12616, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",13950, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12708, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12584, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12585, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12731, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12734, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12583, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12775, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12708, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,12581) , NodeClass.valueOf(8) ,new QualifiedName(0,"ServerConfigurationType") , new LocalizedText("ServerConfigurationType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -5978,10 +5978,10 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2365, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17569, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17567, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17568, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2368, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17569, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17567, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17497, nsTable)));
 nodes2add.add(new UAVariableTypeNode(NodeIdUtil.createNodeId(0,15318) , NodeClass.valueOf(16) ,new QualifiedName(0,"BaseAnalogType") , new LocalizedText("BaseAnalogType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,26) ,-2,new UnsignedInteger[0],false));
 references2add.clear();
@@ -6030,17 +6030,17 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,15297) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17999, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15306, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17562, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18082, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18077, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18078, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17492, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18081, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18080, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17560, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18077, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18088, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18079, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21006, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17492, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18082, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18081, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17562, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18088, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11508, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,18076) , NodeClass.valueOf(1) ,new QualifiedName(0,"<DataSetReaderName>") , new LocalizedText("<DataSetReaderName>","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
@@ -6110,8 +6110,8 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2127, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",13736, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",13735, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",13736, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,12620) , NodeClass.valueOf(8) ,new QualifiedName(0,"CertificateUpdatedAuditEventType") , new LocalizedText("CertificateUpdatedAuditEventType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
 }
@@ -6192,31 +6192,31 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2955, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10029, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10368, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10047, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10020, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10214, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10029, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10020, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9963, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10038, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10047, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10060, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10368, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,9906) , NodeClass.valueOf(8) ,new QualifiedName(0,"NonExclusiveLimitAlarmType") , new LocalizedText("NonExclusiveLimitAlarmType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2253, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12581, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12740, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12777, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18155, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12710, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18155, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12639, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12777, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12640, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",13737, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12737, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12641, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17732, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12640, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12639, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12737, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12740, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14053, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",13737, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,12637) , NodeClass.valueOf(1) ,new QualifiedName(0,"ServerConfiguration") , new LocalizedText("ServerConfiguration","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
 }
@@ -6271,21 +6271,21 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14156, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12522, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14158, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12646, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12652, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12655, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12647, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12666, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12660, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12662, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12657, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12650, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14157, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12670, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12663, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12668, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12643, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12670, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14158, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12668, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12652, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12646, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14157, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12666, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12655, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12660, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12647, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12650, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12657, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,12642) , NodeClass.valueOf(1) ,new QualifiedName(0,"TrustList") , new LocalizedText("TrustList","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
 }
@@ -6333,8 +6333,8 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12642, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12648, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12649, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12648, nsTable)));
 nodes2add.add(new UAMethodNode(NodeIdUtil.createNodeId(0,12647) , NodeClass.valueOf(4) ,new QualifiedName(0,"Open") , new LocalizedText("Open","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false,false));
 references2add.clear();
 }
@@ -6394,25 +6394,25 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12642, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12653, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12654, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12653, nsTable)));
 nodes2add.add(new UAMethodNode(NodeIdUtil.createNodeId(0,12652) , NodeClass.valueOf(4) ,new QualifiedName(0,"Read") , new LocalizedText("Read","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false,false));
 references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",63, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15386, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15391, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15385, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15394, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15388, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15392, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15393, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15389, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15387, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15395, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15388, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15389, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15391, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15386, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15387, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15394, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15392, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15384, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15390, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15385, nsTable)));
 nodes2add.add(new UAVariableTypeNode(NodeIdUtil.createNodeId(0,15383) , NodeClass.valueOf(16) ,new QualifiedName(0,"ProgramDiagnostic2Type") , new LocalizedText("ProgramDiagnostic2Type","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,15396) ,-1,null,false));
 references2add.clear();
 }
@@ -6549,8 +6549,8 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12642, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12665, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12664, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12665, nsTable)));
 nodes2add.add(new UAMethodNode(NodeIdUtil.createNodeId(0,12663) , NodeClass.valueOf(4) ,new QualifiedName(0,"OpenWithMasks") , new LocalizedText("OpenWithMasks","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false,false));
 references2add.clear();
 }
@@ -6582,16 +6582,16 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15401, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15405, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15397, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15405, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15401, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15396) , NodeClass.valueOf(64) ,new QualifiedName(0,"ProgramDiagnostic2DataType") , new LocalizedText("ProgramDiagnostic2DataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12642, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12667, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14160, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12667, nsTable)));
 nodes2add.add(new UAMethodNode(NodeIdUtil.createNodeId(0,12666) , NodeClass.valueOf(4) ,new QualifiedName(0,"CloseAndUpdate") , new LocalizedText("CloseAndUpdate","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false,false));
 references2add.clear();
 }
@@ -6926,8 +6926,8 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14443, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15441, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15442, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15441, nsTable)));
 nodes2add.add(new UAMethodNode(NodeIdUtil.createNodeId(0,15440) , NodeClass.valueOf(4) ,new QualifiedName(0,"GetSecurityGroup") , new LocalizedText("GetSecurityGroup","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false,false));
 references2add.clear();
 }
@@ -6973,8 +6973,8 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15443, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15446, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15445, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15446, nsTable)));
 nodes2add.add(new UAMethodNode(NodeIdUtil.createNodeId(0,15444) , NodeClass.valueOf(4) ,new QualifiedName(0,"AddSecurityGroup") , new LocalizedText("AddSecurityGroup","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false,false));
 references2add.clear();
 }
@@ -7046,10 +7046,10 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",61, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15459, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15464, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,35) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15453, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15461, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15459, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,35) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15453, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,15452) , NodeClass.valueOf(8) ,new QualifiedName(0,"SecurityGroupFolderType") , new LocalizedText("SecurityGroupFolderType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -7071,8 +7071,8 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15453, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15456, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15455, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15456, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAMethodNode(NodeIdUtil.createNodeId(0,15454) , NodeClass.valueOf(4) ,new QualifiedName(0,"AddSecurityGroup") , new LocalizedText("AddSecurityGroup","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false,false));
 references2add.clear();
@@ -7119,10 +7119,10 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15452, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15471, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15010, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15011, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15460, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15043, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15010, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15460, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15012, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11508, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,15459) , NodeClass.valueOf(1) ,new QualifiedName(0,"<SecurityGroupName>") , new LocalizedText("<SecurityGroupName>","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
@@ -7131,10 +7131,10 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2915, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",8995, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18198, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18191, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18197, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18195, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18198, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18197, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18191, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",80, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,18190) , NodeClass.valueOf(2) ,new QualifiedName(0,"LatchedState") , new LocalizedText("LatchedState","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,21) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
@@ -7155,16 +7155,16 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15452, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15463, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15462, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15463, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAMethodNode(NodeIdUtil.createNodeId(0,15461) , NodeClass.valueOf(4) ,new QualifiedName(0,"AddSecurityGroup") , new LocalizedText("AddSecurityGroup","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false,false));
 references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12581, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12732, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12733, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12732, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAMethodNode(NodeIdUtil.createNodeId(0,12731) , NodeClass.valueOf(4) ,new QualifiedName(0,"CreateSigningRequest") , new LocalizedText("CreateSigningRequest","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false,false));
 references2add.clear();
@@ -7272,10 +7272,10 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15056, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15048, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15047, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15472, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15046, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15048, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,15471) , NodeClass.valueOf(8) ,new QualifiedName(0,"SecurityGroupType") , new LocalizedText("SecurityGroupType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -7293,8 +7293,8 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2004, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12747, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12748, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12747, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",80, nsTable)));
 nodes2add.add(new UAMethodNode(NodeIdUtil.createNodeId(0,12746) , NodeClass.valueOf(4) ,new QualifiedName(0,"SetSubscriptionDurable") , new LocalizedText("SetSubscriptionDurable","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false,false));
 references2add.clear();
@@ -7344,8 +7344,8 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14509, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15489, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15482, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15485, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15482, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",80, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,15481) , NodeClass.valueOf(1) ,new QualifiedName(0,"ExtensionFields") , new LocalizedText("ExtensionFields","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
@@ -7353,10 +7353,10 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9906, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",8995, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10027, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10021, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10028, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10025, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10027, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10021, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",80, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,9004) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9963, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,10020) , NodeClass.valueOf(2) ,new QualifiedName(0,"HighHighState") , new LocalizedText("HighHighState","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,21) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
@@ -7370,8 +7370,8 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15481, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15483, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15484, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15483, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAMethodNode(NodeIdUtil.createNodeId(0,15482) , NodeClass.valueOf(4) ,new QualifiedName(0,"AddExtensionField") , new LocalizedText("AddExtensionField","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false,false));
 references2add.clear();
@@ -7406,9 +7406,9 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15084, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12765, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12757, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15084, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,12755) , NodeClass.valueOf(64) ,new QualifiedName(0,"OptionSet") , new LocalizedText("OptionSet","") , new LocalizedText("This abstract Structured DataType is the base DataType for all DataTypes representing a bit mask.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -7428,17 +7428,17 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12766, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15085, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12758, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15085, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12766, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,12756) , NodeClass.valueOf(64) ,new QualifiedName(0,"Union") , new LocalizedText("Union","") , new LocalizedText("This abstract DataType is the base DataType for all union DataTypes.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14525, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15058, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",126, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15589, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15058, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15487) , NodeClass.valueOf(64) ,new QualifiedName(0,"StructureDescription") , new LocalizedText("StructureDescription","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -7452,8 +7452,8 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14525, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",127, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15590, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15059, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15590, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15488) , NodeClass.valueOf(64) ,new QualifiedName(0,"EnumDescription") , new LocalizedText("EnumDescription","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -7473,9 +7473,9 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15494, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15491, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15490, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15494, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,15489) , NodeClass.valueOf(8) ,new QualifiedName(0,"ExtensionFieldsType") , new LocalizedText("ExtensionFieldsType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -7503,9 +7503,9 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9906, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",8995, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10037, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10036, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10034, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10037, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10030, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",80, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,9004) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9963, nsTable)));
@@ -7514,8 +7514,8 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15489, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15493, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15492, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15493, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAMethodNode(NodeIdUtil.createNodeId(0,15491) , NodeClass.valueOf(4) ,new QualifiedName(0,"AddExtensionField") , new LocalizedText("AddExtensionField","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false,false));
 references2add.clear();
@@ -7611,9 +7611,9 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9906, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",8995, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10039, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10043, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10045, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10039, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10046, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",80, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,9004) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9963, nsTable)));
@@ -7643,10 +7643,10 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21175, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21199, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21151, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15510, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21175, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21199, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15502) , NodeClass.valueOf(64) ,new QualifiedName(0,"NetworkAddressDataType") , new LocalizedText("NetworkAddressDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
 }
@@ -7694,10 +7694,10 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9906, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",8995, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10052, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10048, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10055, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10054, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10055, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",10052, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",80, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,9004) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",9963, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,10047) , NodeClass.valueOf(2) ,new QualifiedName(0,"LowLowState") , new LocalizedText("LowLowState","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,21) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
@@ -7719,18 +7719,18 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2164, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2165, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12780, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12781, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12783, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12782, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12783, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12781, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12780, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",83, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,12779) , NodeClass.valueOf(2) ,new QualifiedName(0,"SamplingIntervalDiagnostics") , new LocalizedText("SamplingIntervalDiagnostics","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,856) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15502, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21200, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21152, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21200, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21176, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15510) , NodeClass.valueOf(64) ,new QualifiedName(0,"NetworkAddressUrlDataType") , new LocalizedText("NetworkAddressUrlDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
@@ -7773,36 +7773,36 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2171, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2172, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12796, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12794, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12800, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12785, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12807, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12790, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12806, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12791, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12812, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12789, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12798, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12799, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12797, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12793, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12802, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12787, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12815, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12804, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12808, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12809, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12813, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12795, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12786, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12788, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12792, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12811, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12785, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12789, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12804, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12809, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12793, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12801, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12797, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12798, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12800, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12808, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12813, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12814, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12805, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12810, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12814, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12788, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12794, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12796, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12791, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12802, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12790, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12795, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12811, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12815, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12807, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12787, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12786, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12806, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12799, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12803, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",83, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,12784) , NodeClass.valueOf(2) ,new QualifiedName(0,"SubscriptionDiagnostics") , new LocalizedText("SubscriptionDiagnostics","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,874) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
@@ -7955,9 +7955,9 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15671, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16150, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15949, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15671, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15528) , NodeClass.valueOf(64) ,new QualifiedName(0,"EndpointType") , new LocalizedText("EndpointType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -7984,9 +7984,9 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21202, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21178, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21154, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21202, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15530) , NodeClass.valueOf(64) ,new QualifiedName(0,"PubSubConfigurationDataType") , new LocalizedText("PubSubConfigurationDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -8017,8 +8017,8 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15611, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21155, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21179, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21155, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21203, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15532) , NodeClass.valueOf(64) ,new QualifiedName(0,"DatagramWriterGroupTransportDataType") , new LocalizedText("DatagramWriterGroupTransportDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
@@ -8048,10 +8048,10 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15950, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14523, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15676, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15006, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15676, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16151, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",14523, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15534) , NodeClass.valueOf(64) ,new QualifiedName(0,"DataTypeSchemaHeader") , new LocalizedText("DataTypeSchemaHeader","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
 }
@@ -8064,10 +8064,10 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2130, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15563, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15545, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15547, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15546, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15563, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15547, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15548, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,15535) , NodeClass.valueOf(8) ,new QualifiedName(0,"PubSubStatusEventType") , new LocalizedText("PubSubStatusEventType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
@@ -8148,17 +8148,17 @@ nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,12813) , NodeCl
 references2add.clear();
 }
 {
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18076, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15108, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
-nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,21006) , NodeClass.valueOf(1) ,new QualifiedName(0,"SubscribedDataSet") , new LocalizedText("SubscribedDataSet","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
-references2add.clear();
-}
-{
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12784, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",63, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,12814) , NodeClass.valueOf(2) ,new QualifiedName(0,"NextSequenceNumber") , new LocalizedText("NextSequenceNumber","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(497),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
+references2add.clear();
+}
+{
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",18076, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15108, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
+nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,21006) , NodeClass.valueOf(1) ,new QualifiedName(0,"SubscribedDataSet") , new LocalizedText("SubscribedDataSet","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
 }
 {
@@ -8185,48 +8185,48 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2196, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2197, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12821, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12838, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12840, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12825, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12857, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12849, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12818, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12837, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12848, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12834, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12829, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12858, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12842, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12820, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12846, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12844, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12850, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12854, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12843, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12839, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12832, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12819, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12835, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12827, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12830, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12831, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12852, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12823, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12820, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12855, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12853, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12831, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12818, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12835, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12823, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12851, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12828, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12830, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12859, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12817, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12824, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12827, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12852, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12832, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12837, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12838, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12854, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12821, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12857, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12850, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12845, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12819, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12840, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12829, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12839, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12822, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12842, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12841, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12849, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12826, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12825, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12834, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12856, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12848, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12846, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12836, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12847, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12845, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12822, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12826, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12859, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12841, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12851, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12855, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12824, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12856, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12817, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12858, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12833, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",83, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,12816) , NodeClass.valueOf(2) ,new QualifiedName(0,"SessionDiagnostics") , new LocalizedText("SessionDiagnostics","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,865) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
@@ -8298,13 +8298,13 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17999, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19903, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21060, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21029, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21022, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21016, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21029, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21027, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21017, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21028, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21017, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21060, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",80, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,21015) , NodeClass.valueOf(1) ,new QualifiedName(0,"Diagnostics") , new LocalizedText("Diagnostics","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
@@ -8516,13 +8516,13 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21015, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21055, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21061, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21035, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21030, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21045, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21040, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21055, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21035, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21050, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21030, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21061, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21045, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,21029) , NodeClass.valueOf(1) ,new QualifiedName(0,"Counters") , new LocalizedText("Counters","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
@@ -8538,8 +8538,8 @@ references2add.clear();
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21029, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21032, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21033, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21031, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21033, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,21030) , NodeClass.valueOf(2) ,new QualifiedName(0,"StateError") , new LocalizedText("StateError","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(517),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
@@ -8676,8 +8676,8 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16152, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15677, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15951, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15677, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15578) , NodeClass.valueOf(64) ,new QualifiedName(0,"PublishedDataSetDataType") , new LocalizedText("PublishedDataSetDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -8691,9 +8691,9 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21029, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21041, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21043, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21042, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21043, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21041, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,21040) , NodeClass.valueOf(2) ,new QualifiedName(0,"StateOperationalByParent") , new LocalizedText("StateOperationalByParent","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(526),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
@@ -8721,11 +8721,11 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15582, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16153, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15581, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15952, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16153, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15678, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15581, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15582, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15580) , NodeClass.valueOf(64) ,new QualifiedName(0,"PublishedDataSetSourceDataType") , new LocalizedText("PublishedDataSetSourceDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
 }
@@ -8767,9 +8767,9 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15580, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15954, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16155, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15681, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15954, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15582) , NodeClass.valueOf(64) ,new QualifiedName(0,"PublishedEventsDataType") , new LocalizedText("PublishedEventsDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -8797,8 +8797,8 @@ references2add.clear();
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21029, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21046, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21048, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21047, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21048, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,21045) , NodeClass.valueOf(2) ,new QualifiedName(0,"StateOperationalFromError") , new LocalizedText("StateOperationalFromError","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(530),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
@@ -8925,15 +8925,15 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2243, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2244, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12868, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12863, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12862, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12867, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12866, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12869, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12867, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12863, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12865, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12862, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12861, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12864, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12866, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12868, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",83, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,12860) , NodeClass.valueOf(2) ,new QualifiedName(0,"SessionSecurityDiagnostics") , new LocalizedText("SessionSecurityDiagnostics","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,868) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
@@ -8983,9 +8983,9 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21029, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21057, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21058, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21056, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21057, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,21055) , NodeClass.valueOf(2) ,new QualifiedName(0,"StateDisabledByMethod") , new LocalizedText("StateDisabledByMethod","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(543),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
@@ -9041,8 +9041,8 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15955, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16156, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15955, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15682, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15597) , NodeClass.valueOf(64) ,new QualifiedName(0,"DataSetWriterDataType") , new LocalizedText("DataSetWriterDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
@@ -9056,10 +9056,10 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15669, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15956, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15683, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16157, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15956, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15669, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15598) , NodeClass.valueOf(64) ,new QualifiedName(0,"DataSetWriterTransportDataType") , new LocalizedText("DataSetWriterTransportDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
 }
@@ -9096,9 +9096,9 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21029, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",19725, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21064, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21063, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21062, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21064, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,21061) , NodeClass.valueOf(2) ,new QualifiedName(0,"ReceivedNetworkMessages") , new LocalizedText("ReceivedNetworkMessages","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(549),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
@@ -9159,34 +9159,34 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15688, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15652, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15987, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15664, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16158, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15652, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15688, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15605) , NodeClass.valueOf(64) ,new QualifiedName(0,"DataSetWriterMessageDataType") , new LocalizedText("DataSetWriterMessageDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2268, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15607, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,35) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15692, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,35) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15704, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,35) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15644, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16304, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,35) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15668, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16301, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,35) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15692, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,35) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15656, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,35) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15668, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,35) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15704, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,35) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15680, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,35) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16036, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,35) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15716, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,35) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15680, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,35) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15644, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,15606) , NodeClass.valueOf(1) ,new QualifiedName(0,"RoleSet") , new LocalizedText("RoleSet","") , new LocalizedText("Describes the roles supported by the server.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16000, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15608, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16000, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15997, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,15607) , NodeClass.valueOf(8) ,new QualifiedName(0,"RoleSetType") , new LocalizedText("RoleSetType","") , new LocalizedText("A container for the roles supported by the server.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
@@ -9214,8 +9214,8 @@ references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new Ex
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15689, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16159, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15520, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15480, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15988, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15480, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15609) , NodeClass.valueOf(64) ,new QualifiedName(0,"PubSubGroupDataType") , new LocalizedText("PubSubGroupDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
 }
@@ -9231,11 +9231,11 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15667, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15691, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15532, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15990, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15667, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16161, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15990, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15691, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15611) , NodeClass.valueOf(64) ,new QualifiedName(0,"WriterGroupTransportDataType") , new LocalizedText("WriterGroupTransportDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
 }
@@ -9288,11 +9288,11 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15645, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15657, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16280, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15991, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15693, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16280, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15645, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15616) , NodeClass.valueOf(64) ,new QualifiedName(0,"WriterGroupMessageDataType") , new LocalizedText("WriterGroupMessageDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
 }
@@ -9317,9 +9317,9 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15694, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16281, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15992, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16281, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15694, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15617) , NodeClass.valueOf(64) ,new QualifiedName(0,"PubSubConnectionDataType") , new LocalizedText("PubSubConnectionDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -9338,11 +9338,11 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15993, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15007, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17467, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15695, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16282, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17467, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15993, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15007, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15618) , NodeClass.valueOf(64) ,new QualifiedName(0,"ConnectionTransportDataType") , new LocalizedText("ConnectionTransportDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
 }
@@ -9362,17 +9362,17 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16178, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16174, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15411, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15410, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15624, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16180, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16175, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16176, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15624, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16173, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16174, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16178, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15411, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15626, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16182, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16180, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16176, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15410, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,15620) , NodeClass.valueOf(8) ,new QualifiedName(0,"RoleType") , new LocalizedText("RoleType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -9382,25 +9382,25 @@ private void add20(NamespaceTable nsTable, UAServerApplicationInstance server, L
 List<Node> nodes2add = new ArrayList<>();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12892, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15105, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12891, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12892, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12900, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,12890) , NodeClass.valueOf(64) ,new QualifiedName(0,"DiscoveryConfiguration") , new LocalizedText("DiscoveryConfiguration","") , new LocalizedText("A base type for discovery configuration information.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17999, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21084, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21083, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21084, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",80, nsTable)));
 nodes2add.add(new UAMethodNode(NodeIdUtil.createNodeId(0,21082) , NodeClass.valueOf(4) ,new QualifiedName(0,"AddDataSetReader") , new LocalizedText("AddDataSetReader","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false,false));
 references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16284, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15701, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16284, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15995, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15621) , NodeClass.valueOf(64) ,new QualifiedName(0,"ReaderGroupTransportDataType") , new LocalizedText("ReaderGroupTransportDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
@@ -9444,17 +9444,10 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15703, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16286, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16007, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16286, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15703, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15623) , NodeClass.valueOf(64) ,new QualifiedName(0,"DataSetReaderDataType") , new LocalizedText("DataSetReaderDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
-references2add.clear();
-}
-{
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17999, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21086, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",80, nsTable)));
-nodes2add.add(new UAMethodNode(NodeIdUtil.createNodeId(0,21085) , NodeClass.valueOf(4) ,new QualifiedName(0,"RemoveDataSetReader") , new LocalizedText("RemoveDataSetReader","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false,false));
 references2add.clear();
 }
 {
@@ -9462,6 +9455,13 @@ references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , true,new Ex
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",76, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,39) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12897, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,12893) , NodeClass.valueOf(1) ,new QualifiedName(0,"Default XML") , new LocalizedText("Default XML","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
+references2add.clear();
+}
+{
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17999, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21086, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",80, nsTable)));
+nodes2add.add(new UAMethodNode(NodeIdUtil.createNodeId(0,21085) , NodeClass.valueOf(4) ,new QualifiedName(0,"RemoveDataSetReader") , new LocalizedText("RemoveDataSetReader","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false,false));
 references2add.clear();
 }
 {
@@ -9530,10 +9530,10 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15706, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15653, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16288, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16009, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15665, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15653, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15629) , NodeClass.valueOf(64) ,new QualifiedName(0,"DataSetReaderMessageDataType") , new LocalizedText("DataSetReaderMessageDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
 }
@@ -9544,10 +9544,10 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15635, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16308, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16010, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15707, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16308, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15635, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15631, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15630) , NodeClass.valueOf(64) ,new QualifiedName(0,"SubscribedDataSetDataType") , new LocalizedText("SubscribedDataSetDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
@@ -9595,17 +9595,17 @@ nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15632) , NodeClass.va
 references2add.clear();
 }
 {
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",7617, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",69, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,39) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12900, nsTable)));
-nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,12902) , NodeClass.valueOf(2) ,new QualifiedName(0,"DiscoveryConfiguration") , new LocalizedText("DiscoveryConfiguration","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(572),NodeIdUtil.createNodeId(0,12) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
-references2add.clear();
-}
-{
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15298, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",68, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",80, nsTable)));
-nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,21094) , NodeClass.valueOf(2) ,new QualifiedName(0,"KeyFrameCount") , new LocalizedText("KeyFrameCount","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(573),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
+nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,21094) , NodeClass.valueOf(2) ,new QualifiedName(0,"KeyFrameCount") , new LocalizedText("KeyFrameCount","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(572),NodeIdUtil.createNodeId(0,7) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
+references2add.clear();
+}
+{
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",7617, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",69, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,39) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12900, nsTable)));
+nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,12902) , NodeClass.valueOf(2) ,new QualifiedName(0,"DiscoveryConfiguration") , new LocalizedText("DiscoveryConfiguration","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,values.get(573),NodeIdUtil.createNodeId(0,12) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
 }
 {
@@ -9625,22 +9625,22 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",22, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15736, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15042, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15728, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15042, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15634) , NodeClass.valueOf(64) ,new QualifiedName(0,"IdentityMappingRuleType") , new LocalizedText("IdentityMappingRuleType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21128, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21111, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21128, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,21096) , NodeClass.valueOf(8) ,new QualifiedName(0,"DataSetWriterMessageType") , new LocalizedText("DataSetWriterMessageType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15630, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16012, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16311, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16012, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15713, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15635) , NodeClass.valueOf(64) ,new QualifiedName(0,"SubscribedDataSetMirrorDataType") , new LocalizedText("SubscribedDataSetMirrorDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
@@ -9763,11 +9763,11 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17998, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21107, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21108, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21109, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21106, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21110, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21109, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21107, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21108, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,21105) , NodeClass.valueOf(8) ,new QualifiedName(0,"UadpWriterGroupMessageType") , new LocalizedText("UadpWriterGroupMessageType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -9781,17 +9781,17 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,35) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15606, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15620, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16197, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15412, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16199, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15413, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16195, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16193, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16201, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16192, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15650, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16194, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16193, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15412, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15648, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16197, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16195, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15650, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16199, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16194, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,15644) , NodeClass.valueOf(1) ,new QualifiedName(0,"WellKnownRole_Anonymous") , new LocalizedText("Anonymous","") , new LocalizedText("The Role has very limited access for use when a Session has anonymous credentials.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
 }
@@ -9871,8 +9871,8 @@ references2add.clear();
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21096, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21113, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21115, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21114, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21112, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21114, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,21111) , NodeClass.valueOf(8) ,new QualifiedName(0,"UadpDataSetWriterMessageType") , new LocalizedText("UadpDataSetWriterMessageType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -9904,9 +9904,9 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15605, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15717, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16015, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16391, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15717, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15652) , NodeClass.valueOf(64) ,new QualifiedName(0,"UadpDataSetWriterMessageDataType") , new LocalizedText("UadpDataSetWriterMessageDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -9919,8 +9919,8 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15629, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15718, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16392, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15718, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16016, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15653) , NodeClass.valueOf(64) ,new QualifiedName(0,"UadpDataSetReaderMessageDataType") , new LocalizedText("UadpDataSetReaderMessageDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
@@ -9950,15 +9950,15 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21104, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21124, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21123, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17477, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21117, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21121, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21122, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21120, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21117, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21119, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21120, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21124, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21125, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21123, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,21116) , NodeClass.valueOf(8) ,new QualifiedName(0,"UadpDataSetReaderMessageType") , new LocalizedText("UadpDataSetReaderMessageType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -9984,17 +9984,17 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,35) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15606, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15620, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15415, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15660, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16210, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15662, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16204, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16208, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16212, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15415, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15660, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16205, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16203, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15414, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16205, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16204, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16210, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16206, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15662, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,15656) , NodeClass.valueOf(1) ,new QualifiedName(0,"WellKnownRole_AuthenticatedUser") , new LocalizedText("AuthenticatedUser","") , new LocalizedText("The Role has limited access for use when a Session has valid non-anonymous credentials but has not been explicity granted access to a Role.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
 }
@@ -10013,23 +10013,23 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12746, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2012, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12871, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11527, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12882, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2006, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2742, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2011, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11489, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12883, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2008, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17612, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15003, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2005, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2010, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2007, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2009, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2012, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2007, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2005, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2742, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2010, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12882, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2008, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11489, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2006, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12883, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12746, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12871, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2011, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15003, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11527, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17612, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,2004) , NodeClass.valueOf(8) ,new QualifiedName(0,"ServerType") , new LocalizedText("ServerType","") , new LocalizedText("Specifies the current status and capabilities of the server.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -10092,10 +10092,10 @@ references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new Ex
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2138, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3076, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3074, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3084, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3085, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3077, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3075, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3084, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3077, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,2007) , NodeClass.valueOf(2) ,new QualifiedName(0,"ServerStatus") , new LocalizedText("ServerStatus","") , new LocalizedText("The current status of the server.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,862) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),1000.0,false));
 references2add.clear();
@@ -10136,15 +10136,15 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2004, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2013, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3090, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3088, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3086, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3089, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3094, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3093, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3087, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3089, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3091, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3094, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3090, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3092, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3086, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3088, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3087, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,2009) , NodeClass.valueOf(1) ,new QualifiedName(0,"ServerCapabilities") , new LocalizedText("ServerCapabilities","") , new LocalizedText("Describes capabilities supported by the server.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
@@ -10165,10 +10165,10 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2004, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2020, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3114, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3095, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3111, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3110, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3114, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,2010) , NodeClass.valueOf(1) ,new QualifiedName(0,"ServerDiagnostics") , new LocalizedText("ServerDiagnostics","") , new LocalizedText("Reports diagnostics about the server.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
@@ -10182,9 +10182,9 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15605, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15724, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16394, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16018, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16394, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15724, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15664) , NodeClass.valueOf(64) ,new QualifiedName(0,"JsonDataSetWriterMessageDataType") , new LocalizedText("JsonDataSetWriterMessageDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -10203,9 +10203,9 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15629, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16019, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15725, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16404, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15725, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16019, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15665) , NodeClass.valueOf(64) ,new QualifiedName(0,"JsonDataSetReaderMessageDataType") , new LocalizedText("JsonDataSetReaderMessageDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -10226,21 +10226,21 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2016, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2017, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11562, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2732, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2019, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3049, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16295, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11549, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12910, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11550, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2014, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2733, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11551, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2754, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2017, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11549, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11550, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2016, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2019, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11551, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2732, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3049, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2734, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16295, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,2013) , NodeClass.valueOf(8) ,new QualifiedName(0,"ServerCapabilitiesType") , new LocalizedText("ServerCapabilitiesType","") , new LocalizedText("Describes the capabilities supported by the server.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -10252,8 +10252,8 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15611, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16021, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16524, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16021, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15727, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15667) , NodeClass.valueOf(64) ,new QualifiedName(0,"BrokerWriterGroupTransportDataType") , new LocalizedText("BrokerWriterGroupTransportDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
@@ -10275,17 +10275,17 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,35) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15606, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15620, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16219, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16223, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15672, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15417, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15674, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16221, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16217, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16215, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16216, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16214, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15416, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16215, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15674, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15417, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16223, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16219, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16216, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16221, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16217, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15672, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,15668) , NodeClass.valueOf(1) ,new QualifiedName(0,"WellKnownRole_Observer") , new LocalizedText("Observer","") , new LocalizedText("The Role is allowed to browse, read live data, read historical data/events or subscribe to data/events.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
 }
@@ -10298,8 +10298,8 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15598, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15729, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16022, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15729, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16525, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15669) , NodeClass.valueOf(64) ,new QualifiedName(0,"BrokerDataSetWriterTransportDataType") , new LocalizedText("BrokerDataSetWriterTransportDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
@@ -10325,8 +10325,8 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15628, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15733, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16023, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16526, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,38) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16023, nsTable)));
 nodes2add.add(new UADataTypeNode(NodeIdUtil.createNodeId(0,15670) , NodeClass.valueOf(64) ,new QualifiedName(0,"BrokerDataSetReaderTransportDataType") , new LocalizedText("BrokerDataSetReaderTransportDataType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -10353,8 +10353,8 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17997, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21135, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21134, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21135, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,21133) , NodeClass.valueOf(8) ,new QualifiedName(0,"DatagramWriterGroupTransportType") , new LocalizedText("DatagramWriterGroupTransportType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -10386,11 +10386,11 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2021, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2744, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2022, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2023, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2744, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2025, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2021, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,2020) , NodeClass.valueOf(8) ,new QualifiedName(0,"ServerDiagnosticsType") , new LocalizedText("ServerDiagnosticsType","") , new LocalizedText("The diagnostics information for a server.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -10410,16 +10410,16 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2020, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2150, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3122, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3124, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3119, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3118, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3125, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3120, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3117, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3128, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3127, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3125, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3122, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3116, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3124, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3117, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3118, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3119, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3126, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3121, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
@@ -10428,10 +10428,10 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17997, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15246, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15249, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15247, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21137, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15246, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,21136) , NodeClass.valueOf(8) ,new QualifiedName(0,"BrokerWriterGroupTransportType") , new LocalizedText("BrokerWriterGroupTransportType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -10477,12 +10477,12 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15305, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21139, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15251, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15250, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21140, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15330, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21141, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15330, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15250, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21139, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21140, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15251, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,21138) , NodeClass.valueOf(8) ,new QualifiedName(0,"BrokerDataSetWriterTransportType") , new LocalizedText("BrokerDataSetWriterTransportType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -10530,8 +10530,8 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2027, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2028, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2027, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",12097, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,2026) , NodeClass.valueOf(8) ,new QualifiedName(0,"SessionsDiagnosticsSummaryType") , new LocalizedText("SessionsDiagnosticsSummaryType","") , new LocalizedText("Provides a summary of session level diagnostics.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
@@ -10546,17 +10546,17 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,35) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15606, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15620, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15418, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16230, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15686, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16225, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16226, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15423, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16228, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15423, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16225, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15684, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16227, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16234, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16232, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16227, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15684, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15418, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,15680) , NodeClass.valueOf(1) ,new QualifiedName(0,"WellKnownRole_Operator") , new LocalizedText("Operator","") , new LocalizedText("The Role is allowed to browse, read live data, read historical data/events or subscribe to data/events.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
 }
@@ -10569,11 +10569,11 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15319, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21143, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15334, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21144, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15420, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15334, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",21143, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15419, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15420, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,21142) , NodeClass.valueOf(8) ,new QualifiedName(0,"BrokerDataSetReaderTransportType") , new LocalizedText("BrokerDataSetReaderTransportType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -10607,9 +10607,9 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2031, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2032, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2030, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2031, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,2029) , NodeClass.valueOf(8) ,new QualifiedName(0,"SessionDiagnosticsObjectType") , new LocalizedText("SessionDiagnosticsObjectType","") , new LocalizedText("A container for session level diagnostics information.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -10630,49 +10630,49 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2029, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2197, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3155, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3166, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",8898, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3169, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3160, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3154, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3156, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3140, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3161, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3134, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3164, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3178, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3136, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3169, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3168, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3137, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3141, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3160, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3142, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11891, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3167, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3133, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3139, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3142, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3154, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3165, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3135, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3176, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3157, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3162, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3168, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3171, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3141, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3138, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3132, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3173, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3178, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3159, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3152, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3170, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11891, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3143, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3175, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3136, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3163, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3155, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3131, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3143, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3158, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3177, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3153, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3172, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3137, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3166, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3135, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3171, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3177, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3139, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",8898, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3151, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3170, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3163, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3173, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3159, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3132, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3162, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3156, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3152, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3157, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3153, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3175, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3174, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3140, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3164, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3161, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3176, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3138, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,2030) , NodeClass.valueOf(2) ,new QualifiedName(0,"SessionDiagnostics") , new LocalizedText("SessionDiagnostics","") , new LocalizedText("Diagnostics information for an active session.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,865) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
@@ -10693,15 +10693,15 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2029, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2244, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3185, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3179, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3186, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3187, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3183, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3185, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3180, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3182, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3181, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3179, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3180, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3183, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3184, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3182, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,37) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",78, nsTable)));
 nodes2add.add(new UAServerVariableNode(NodeIdUtil.createNodeId(0,2031) , NodeClass.valueOf(2) ,new QualifiedName(0,"SessionSecurityDiagnostics") , new LocalizedText("SessionSecurityDiagnostics","") , new LocalizedText("Security related diagnostics information for an active session.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,Variant.NULL,NodeIdUtil.createNodeId(0,868) ,-1,null,new UnsignedByte(1),new UnsignedByte(1),0.0,false));
 references2add.clear();
@@ -10756,9 +10756,9 @@ private void add23(NamespaceTable nsTable, UAServerApplicationInstance server, L
 List<Node> nodes2add = new ArrayList<>();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2039, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2035, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2036, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2039, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,2034) , NodeClass.valueOf(8) ,new QualifiedName(0,"ServerRedundancyType") , new LocalizedText("ServerRedundancyType","") , new LocalizedText("A base type for an object that describe how a server supports redundancy.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,false));
 references2add.clear();
 }
@@ -10849,17 +10849,17 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,35) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15606, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15620, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16256, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15698, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15427, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16250, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16248, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16254, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16247, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16249, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15696, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16252, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15426, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15696, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15698, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16247, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16248, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15427, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16254, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16256, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16250, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,15692) , NodeClass.valueOf(1) ,new QualifiedName(0,"WellKnownRole_Supervisor") , new LocalizedText("Supervisor","") , new LocalizedText("The Role is allowed to browse, read live data, read and historical data/events, call methods or subscribe to data/events.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
 }
@@ -10907,23 +10907,23 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",58, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2043, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2050, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2738, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2046, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2051, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2311, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3035, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2782, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2042, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2047, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2045, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2044, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11436, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2130, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2052, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2132, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3190, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2042, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2044, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2051, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2052, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2047, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2043, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2130, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",11436, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2738, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2132, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2782, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2050, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2046, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3035, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2311, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,35) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",3048, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,2041) , NodeClass.valueOf(8) ,new QualifiedName(0,"BaseEventType") , new LocalizedText("BaseEventType","") , new LocalizedText("The base type for all events.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
@@ -11066,17 +11066,17 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,35) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15606, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15620, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16261, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15527, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16263, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15710, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16265, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16258, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15708, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15430, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16259, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15708, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16260, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15710, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15527, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16259, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16258, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16267, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16265, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16261, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,15704) , NodeClass.valueOf(1) ,new QualifiedName(0,"WellKnownRole_SecurityAdmin") , new LocalizedText("SecurityAdmin","") , new LocalizedText("The Role is allowed to change security related settings.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
 }
@@ -11096,15 +11096,15 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2041, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2058, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2127, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2055, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2099, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2053, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2090, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2055, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2053, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2099, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2058, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2054, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2057, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2056, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2127, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,2052) , NodeClass.valueOf(8) ,new QualifiedName(0,"AuditEventType") , new LocalizedText("AuditEventType","") , new LocalizedText("A base type for events used to track client initiated changes to the server state.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
 }
@@ -11197,10 +11197,10 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2052, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2080, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2059, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17615, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2080, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2069, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",17615, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,2058) , NodeClass.valueOf(8) ,new QualifiedName(0,"AuditSecurityEventType") , new LocalizedText("AuditSecurityEventType","") , new LocalizedText("A base type for events used to track security related changes.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
 }
@@ -11217,8 +11217,8 @@ private void add24(NamespaceTable nsTable, UAServerApplicationInstance server, L
 List<Node> nodes2add = new ArrayList<>();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2058, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2060, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2745, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2060, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,2059) , NodeClass.valueOf(8) ,new QualifiedName(0,"AuditChannelEventType") , new LocalizedText("AuditChannelEventType","") , new LocalizedText("A base type for events used to track related changes to a secure channel.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
 }
@@ -11238,12 +11238,12 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2059, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2066, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2061, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2065, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2063, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2062, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2061, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2066, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2746, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2065, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,2060) , NodeClass.valueOf(8) ,new QualifiedName(0,"AuditOpenSecureChannelEventType") , new LocalizedText("AuditOpenSecureChannelEventType","") , new LocalizedText("An event that is raised when a secure channel is opened.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
 }
@@ -11298,17 +11298,17 @@ references2add.clear();
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,35) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15606, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,40) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15620, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15720, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16274, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16271, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16278, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15428, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16270, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16274, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16269, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16276, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16272, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15720, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15722, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16270, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16269, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16272, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",15429, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16271, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,47) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",16276, nsTable)));
 nodes2add.add(new UAServerObjectNode(NodeIdUtil.createNodeId(0,15716) , NodeClass.valueOf(1) ,new QualifiedName(0,"WellKnownRole_ConfigureAdmin") , new LocalizedText("ConfigureAdmin","") , new LocalizedText("The Role is allowed to change the non-security related configuration settings.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,new UnsignedByte(0)));
 references2add.clear();
 }
@@ -11402,10 +11402,10 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2058, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2071, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2078, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2075, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2070, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2071, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2078, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,2069) , NodeClass.valueOf(8) ,new QualifiedName(0,"AuditSessionEventType") , new LocalizedText("AuditSessionEventType","") , new LocalizedText("A base type for events used to track related changes to a session.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
 }
@@ -11431,11 +11431,11 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2069, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2748, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2074, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2072, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2748, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2747, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2073, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2074, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,2071) , NodeClass.valueOf(8) ,new QualifiedName(0,"AuditCreateSessionEventType") , new LocalizedText("AuditCreateSessionEventType","") , new LocalizedText("An event that is raised when a session is created.",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
 }
@@ -11566,13 +11566,13 @@ references2add.clear();
 }
 {
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , true,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2058, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2086, nsTable)));
+references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2085, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2082, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2088, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,46) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2081, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2085, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2087, nsTable)));
 references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2089, nsTable)));
-references2add.add(new ReferenceNode(NodeIdUtil.createNodeId(0,45) , false,new ExpandedNodeId(new UnsignedInteger(0),"http://opcfoundation.org/UA/",2086, nsTable)));
 nodes2add.add(new UAObjectTypeNode(NodeIdUtil.createNodeId(0,2080) , NodeClass.valueOf(8) ,new QualifiedName(0,"AuditCertificateEventType") , new LocalizedText("AuditCertificateEventType","") , new LocalizedText("",""), new UnsignedInteger(0) , new UnsignedInteger(0) ,references2add.toArray(new ReferenceNode[0]) ,true));
 references2add.clear();
 }
