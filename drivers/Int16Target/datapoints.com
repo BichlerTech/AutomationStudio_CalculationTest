@@ -14,11 +14,11 @@
       <active value="true" />
       <calcevent value="CYCLIC" timeout="1000"/>
       <operation value="return(" />
-      <node ns="bichler.tech" id="i=17" name="ns=1;i=17" index="-1"/>
+      <node ns="bichler.tech" id="i=21204" name="ns=1;i=21204" index="-1"/>
       <operation value=");" />
     </calc>
     <calc>
-      <target ns="bichler.tech" id="i=19" name="" index="-1"/>
+      <target ns="bichler.tech" id="i=20" name="Int16Result3" index="-1"/>
       <active value="true" />
       <calcevent value="CYCLIC" timeout="1000"/>
       <operation value="return(" />
@@ -26,7 +26,7 @@
       <operation value=");" />
     </calc>
     <calc>
-      <target ns="bichler.tech" id="i=20" name="" index="-1"/>
+      <target ns="bichler.tech" id="i=21" name="Int16Result4" index="-1"/>
       <active value="true" />
       <calcevent value="CYCLIC" timeout="1000"/>
       <operation value="return(" />
@@ -34,7 +34,7 @@
       <operation value=");" />
     </calc>
     <calc>
-      <target ns="bichler.tech" id="i=21" name="" index="-1"/>
+      <target ns="bichler.tech" id="i=22" name="Int16Result5" index="-1"/>
       <active value="true" />
       <calcevent value="CYCLIC" timeout="1000"/>
       <operation value="return(" />
@@ -42,7 +42,39 @@
       <operation value=");" />
     </calc>
     <calc>
-      <target ns="bichler.tech" id="i=22" name="" index="-1"/>
+      <target ns="bichler.tech" id="i=27" name="Int16Result6" index="-1"/>
+      <active value="true" />
+      <calcevent value="CYCLIC" timeout="1000"/>
+      <operation value="return(" />
+      <node ns="bichler.tech" id="i=17" name="ns=1;i=17" index="-1"/>
+      <operation value=");" />
+    </calc>
+    <calc>
+      <target ns="bichler.tech" id="i=21256" name="Int16Result7" index="-1"/>
+      <active value="true" />
+      <calcevent value="CYCLIC" timeout="1000"/>
+      <operation value="return(" />
+      <node ns="bichler.tech" id="i=21261" name="ns=1;i=21261" index="-1"/>
+      <operation value=");" />
+    </calc>
+    <calc>
+      <target ns="bichler.tech" id="i=21257" name="Int16Result8" index="-1"/>
+      <active value="true" />
+      <calcevent value="CYCLIC" timeout="1000"/>
+      <operation value="return(" />
+      <node ns="bichler.tech" id="i=21262" name="ns=1;i=21262" index="-1"/>
+      <operation value=");" />
+    </calc>
+    <calc>
+      <target ns="bichler.tech" id="i=21258" name="Int16Result9" index="-1"/>
+      <active value="true" />
+      <calcevent value="CYCLIC" timeout="1000"/>
+      <operation value="return(" />
+      <node ns="bichler.tech" id="i=21263" name="ns=1;i=21263" index="-1"/>
+      <operation value=");" />
+    </calc>
+    <calc>
+      <target ns="bichler.tech" id="i=21259" name="Int16Result10" index="-1"/>
       <active value="true" />
       <calcevent value="CYCLIC" timeout="1000"/>
       <operation value="return(" />
@@ -50,7 +82,7 @@
       <operation value=");" />
     </calc>
     <calc>
-      <target ns="bichler.tech" id="i=27" name="" index="-1"/>
+      <target ns="bichler.tech" id="i=21260" name="Int16Result11" index="-1"/>
       <active value="true" />
       <calcevent value="CYCLIC" timeout="1000"/>
       <operation value="return(" />
